@@ -1,0 +1,143 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  height: 64px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 16px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+footer .col-3 {
+  width: 25%;
+  padding: 0 16px;
+}
+
+footer h3 {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin: 0 0 8px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+section {
+  background-color: #f6f6f6;
+}
+
+section .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+section .row {
+  display: flex;
+  margin: 0 -16px;
+}
+
+section .col-6 {
+  width: 50%;
+  padding: 0 16px;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+
+section form {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+}
+
+section form h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+section form .form-group {
+  margin: 0 0 16px;
+}
+
+section form label {
+  display: block;
+  font-size: medium;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    background-color: red;
+  }
+  /* CSS per dispositivi con larghezza massima di 768 pixel */
+}
